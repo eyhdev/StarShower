@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4DB0AE02B3D9ADF00050DD4 /* StarShowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB0ADF2B3D9ADF00050DD4 /* StarShowerApp.swift */; };
+		D4DB0AE22B3D9ADF00050DD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB0AE12B3D9ADF00050DD4 /* ContentView.swift */; };
+		D4DB0AE42B3D9AE000050DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DB0AE32B3D9AE000050DD4 /* Assets.xcassets */; };
+		D4DB0AE72B3D9AE000050DD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DB0AE62B3D9AE000050DD4 /* Preview Assets.xcassets */; };
+		D4DB0AF12B3D9AE100050DD4 /* StarShowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB0AF02B3D9AE100050DD4 /* StarShowerTests.swift */; };
+		D4DB0AFB2B3D9AE100050DD4 /* StarShowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB0AFA2B3D9AE100050DD4 /* StarShowerUITests.swift */; };
+		D4DB0AFD2B3D9AE100050DD4 /* StarShowerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB0AFC2B3D9AE100050DD4 /* StarShowerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4DB0AED2B3D9AE100050DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4DB0AD42B3D9ADF00050DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DB0ADB2B3D9ADF00050DD4;
+			remoteInfo = StarShower;
+		};
+		D4DB0AF72B3D9AE100050DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4DB0AD42B3D9ADF00050DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DB0ADB2B3D9ADF00050DD4;
+			remoteInfo = StarShower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4DB0ADC2B3D9ADF00050DD4 /* StarShower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarShower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DB0ADF2B3D9ADF00050DD4 /* StarShowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShowerApp.swift; sourceTree = "<group>"; };
+		D4DB0AE12B3D9ADF00050DD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4DB0AE32B3D9AE000050DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4DB0AE62B3D9AE000050DD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4DB0AEC2B3D9AE100050DD4 /* StarShowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarShowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DB0AF02B3D9AE100050DD4 /* StarShowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShowerTests.swift; sourceTree = "<group>"; };
+		D4DB0AF62B3D9AE100050DD4 /* StarShowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarShowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DB0AFA2B3D9AE100050DD4 /* StarShowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShowerUITests.swift; sourceTree = "<group>"; };
+		D4DB0AFC2B3D9AE100050DD4 /* StarShowerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShowerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4DB0AD92B3D9ADF00050DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AE92B3D9AE100050DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AF32B3D9AE100050DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4DB0AD32B3D9ADF00050DD4 = {
+			isa = PBXGroup;
+			children = (
+				D4DB0ADE2B3D9ADF00050DD4 /* StarShower */,
+				D4DB0AEF2B3D9AE100050DD4 /* StarShowerTests */,
+				D4DB0AF92B3D9AE100050DD4 /* StarShowerUITests */,
+				D4DB0ADD2B3D9ADF00050DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4DB0ADD2B3D9ADF00050DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB0ADC2B3D9ADF00050DD4 /* StarShower.app */,
+				D4DB0AEC2B3D9AE100050DD4 /* StarShowerTests.xctest */,
+				D4DB0AF62B3D9AE100050DD4 /* StarShowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4DB0ADE2B3D9ADF00050DD4 /* StarShower */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB0ADF2B3D9ADF00050DD4 /* StarShowerApp.swift */,
+				D4DB0AE12B3D9ADF00050DD4 /* ContentView.swift */,
+				D4DB0AE32B3D9AE000050DD4 /* Assets.xcassets */,
+				D4DB0AE52B3D9AE000050DD4 /* Preview Content */,
+			);
+			path = StarShower;
+			sourceTree = "<group>";
+		};
+		D4DB0AE52B3D9AE000050DD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB0AE62B3D9AE000050DD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4DB0AEF2B3D9AE100050DD4 /* StarShowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB0AF02B3D9AE100050DD4 /* StarShowerTests.swift */,
+			);
+			path = StarShowerTests;
+			sourceTree = "<group>";
+		};
+		D4DB0AF92B3D9AE100050DD4 /* StarShowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB0AFA2B3D9AE100050DD4 /* StarShowerUITests.swift */,
+				D4DB0AFC2B3D9AE100050DD4 /* StarShowerUITestsLaunchTests.swift */,
+			);
+			path = StarShowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4DB0ADB2B3D9ADF00050DD4 /* StarShower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DB0B002B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShower" */;
+			buildPhases = (
+				D4DB0AD82B3D9ADF00050DD4 /* Sources */,
+				D4DB0AD92B3D9ADF00050DD4 /* Frameworks */,
+				D4DB0ADA2B3D9ADF00050DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarShower;
+			productName = StarShower;
+			productReference = D4DB0ADC2B3D9ADF00050DD4 /* StarShower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4DB0AEB2B3D9AE100050DD4 /* StarShowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DB0B032B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShowerTests" */;
+			buildPhases = (
+				D4DB0AE82B3D9AE100050DD4 /* Sources */,
+				D4DB0AE92B3D9AE100050DD4 /* Frameworks */,
+				D4DB0AEA2B3D9AE100050DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4DB0AEE2B3D9AE100050DD4 /* PBXTargetDependency */,
+			);
+			name = StarShowerTests;
+			productName = StarShowerTests;
+			productReference = D4DB0AEC2B3D9AE100050DD4 /* StarShowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4DB0AF52B3D9AE100050DD4 /* StarShowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DB0B062B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShowerUITests" */;
+			buildPhases = (
+				D4DB0AF22B3D9AE100050DD4 /* Sources */,
+				D4DB0AF32B3D9AE100050DD4 /* Frameworks */,
+				D4DB0AF42B3D9AE100050DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4DB0AF82B3D9AE100050DD4 /* PBXTargetDependency */,
+			);
+			name = StarShowerUITests;
+			productName = StarShowerUITests;
+			productReference = D4DB0AF62B3D9AE100050DD4 /* StarShowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4DB0AD42B3D9ADF00050DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D4DB0ADB2B3D9ADF00050DD4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D4DB0AEB2B3D9AE100050DD4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D4DB0ADB2B3D9ADF00050DD4;
+					};
+					D4DB0AF52B3D9AE100050DD4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D4DB0ADB2B3D9ADF00050DD4;
+					};
+				};
+			};
+			buildConfigurationList = D4DB0AD72B3D9ADF00050DD4 /* Build configuration list for PBXProject "StarShower" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4DB0AD32B3D9ADF00050DD4;
+			productRefGroup = D4DB0ADD2B3D9ADF00050DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4DB0ADB2B3D9ADF00050DD4 /* StarShower */,
+				D4DB0AEB2B3D9AE100050DD4 /* StarShowerTests */,
+				D4DB0AF52B3D9AE100050DD4 /* StarShowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4DB0ADA2B3D9ADF00050DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DB0AE72B3D9AE000050DD4 /* Preview Assets.xcassets in Resources */,
+				D4DB0AE42B3D9AE000050DD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AEA2B3D9AE100050DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AF42B3D9AE100050DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4DB0AD82B3D9ADF00050DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DB0AE22B3D9ADF00050DD4 /* ContentView.swift in Sources */,
+				D4DB0AE02B3D9ADF00050DD4 /* StarShowerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AE82B3D9AE100050DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DB0AF12B3D9AE100050DD4 /* StarShowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DB0AF22B3D9AE100050DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DB0AFD2B3D9AE100050DD4 /* StarShowerUITestsLaunchTests.swift in Sources */,
+				D4DB0AFB2B3D9AE100050DD4 /* StarShowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4DB0AEE2B3D9AE100050DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4DB0ADB2B3D9ADF00050DD4 /* StarShower */;
+			targetProxy = D4DB0AED2B3D9AE100050DD4 /* PBXContainerItemProxy */;
+		};
+		D4DB0AF82B3D9AE100050DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4DB0ADB2B3D9ADF00050DD4 /* StarShower */;
+			targetProxy = D4DB0AF72B3D9AE100050DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4DB0AFE2B3D9AE100050DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4DB0AFF2B3D9AE100050DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4DB0B012B3D9AE100050DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarShower/Preview Content\"";
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4DB0B022B3D9AE100050DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarShower/Preview Content\"";
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4DB0B042B3D9AE100050DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarShower.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarShower";
+			};
+			name = Debug;
+		};
+		D4DB0B052B3D9AE100050DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarShower.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarShower";
+			};
+			name = Release;
+		};
+		D4DB0B072B3D9AE100050DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarShower;
+			};
+			name = Debug;
+		};
+		D4DB0B082B3D9AE100050DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPY59J6YN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.StarShowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarShower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4DB0AD72B3D9ADF00050DD4 /* Build configuration list for PBXProject "StarShower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DB0AFE2B3D9AE100050DD4 /* Debug */,
+				D4DB0AFF2B3D9AE100050DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DB0B002B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DB0B012B3D9AE100050DD4 /* Debug */,
+				D4DB0B022B3D9AE100050DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DB0B032B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DB0B042B3D9AE100050DD4 /* Debug */,
+				D4DB0B052B3D9AE100050DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DB0B062B3D9AE100050DD4 /* Build configuration list for PBXNativeTarget "StarShowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DB0B072B3D9AE100050DD4 /* Debug */,
+				D4DB0B082B3D9AE100050DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4DB0AD42B3D9ADF00050DD4 /* Project object */;
+}
